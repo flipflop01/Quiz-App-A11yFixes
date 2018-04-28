@@ -1,0 +1,219 @@
+* {
+  /*margin: 0;
+  padding: 0;*/
+  box-sizing: border-box;
+}
+
+.logo > img {
+  width: ;
+  border-style: none;
+  max-width: 100%;
+}
+
+.logo {
+  display: block;
+}
+
+body {
+  background: url('https://www.iwantwallpaper.co.uk/images/1-wall-old-world-map-atlas-wallpaper-mural-1-58m-x-2-32m-p2019-6130_image.jpg') 
+  no-repeat center fixed;
+  background-size: cover;
+}
+
+p {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-weight: bold;
+}
+
+.col-4 {
+  font-size: ;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.col-6 {
+  font-size: ;
+  padding: 0 100px;
+  text-align: center;
+  display: block;
+  
+}
+
+fieldset {
+  border-style: none;
+  max-width: 70%;
+  margin: auto;
+}
+
+fieldset > * {
+  display: block;
+  text-align: left;
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+h1, h2 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Great Vibes', cursive;
+  color: black;
+  text-shadow: 1px 0 white, 0 1px white, 1px 0 white, 0 1px white;
+}
+
+label {
+  border-color: solid black;
+  border-style: groove;
+  background-color: #4C8589;
+}
+
+label:hover {
+  box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+span {
+  margin-left: 10px;
+}
+
+.correct_answer > img {
+  margin-top: 50px;
+  border-color: solid black;
+  border-style: groove;
+  max-width: 100%;
+}
+
+ul {
+    padding: 0;
+    background-color: #6B7F7A;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#foot > li {
+  list-style: none;
+  font-size: 30px;
+}
+
+footer {
+  margin-top: 50px;
+  bottom: 0;
+}
+
+.beginTest {
+  margin-top: 50px;
+  height: 100px;
+  width: 300px;
+  font-weight: bold;
+  font-family: serif;
+  font-size: 40px;
+  vertical-align: middle;
+  background-color: rgb(81, 135, 73);
+}
+
+.next_question, .startAgain {
+  height: 50px;
+  width: 180px;
+  font-family: serif;
+  font-weight: bold;
+  font-size: 20px;
+  vertical-align: middle;
+  background-color: #6F7D80;
+}
+
+.next_question:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+@media only screen and (max-width: 768px) {
+  .startAgain {font-size: 40px;}
+  .beginTest {font-size: 50px;}
+  .foot > li {font-size: 40px;}
+  h1, h2 {font-size: 50px;}
+  fieldset > * {font-size: 40px;}
+  fieldset {max-width: 100%}
+  p {font-size: 40px} 
+}
+
+@media only screen and (max-width: 375px) {
+  .next_question {
+    font-size: 20px;
+  }
+  .startAgain {
+    font-size: 30px;
+    width: 150px;
+  }
+  .beginTest {
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    margin-right: 12px;
+  }
+  .foot {font-size: 20px;}
+  h1, h2 {
+    font-size: 25px;
+    font-family: initial;
+  }
+  #foot > li {font-size: 20px;}
+  fieldset > * {font-size: 20px;}
+  fieldset {
+    max-width: 100%;
+    padding: 0;
+  }
+  p {font-size: 30px;}
+
+  .col-6 {padding: 0 45px;}
+  ul {
+    padding: 0;
+    background-color: #6B7F7A;
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 200px;
+}
+  
+}
+
+
+
+@media only screen and (max-width: 320px) {
+  .next_question {
+    font-size: 20px;
+    font-family: initial;
+    background-color: rgb(81, 135, 73);
+    text-shadow: none;
+  }
+  .startAgain {
+    font-size: 25px;
+    width: 140px;
+  }
+  .beginTest {
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    margin-right: 12px;
+    font-family: initial;
+  }
+  .foot {font-size: 20px;}
+  h1, h2 {
+    font-size: 15px;
+    font-family: initial;
+  }
+  #foot > li {font-size: 20px;}
+  fieldset {
+    max-width: 100%;
+    padding: 0;
+  }
+  p {
+    font-size: 25px;
+    padding-top: 50px;
+    font-family: initial;
+  }
+  .col-6 {padding: 0 40px;}
+  span {text-shadow: none;}
+  fieldset > * {font-size: 15px;}
+}
